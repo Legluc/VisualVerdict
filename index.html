@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer pour jeu de société</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="content">
+      <h1>VisualVerdict</h1>
+      <h2>The goal</h2>
+      <p>
+        Create the best graphic charter while respecting the given constraints
+        and learning the basics of graphic design. The player who wins the most
+        rounds wins the game.
+      </p>
+    </div>
+    <div class="timer-container">
+      <div class="round-controls">
+        <button id="round1">Round 1</button>
+        <button id="nextRound">Round 2 - 5</button>
+      </div>
+      <h2>Timer of game</h2>
+      <div id="timer">03:00</div>
+      <div class="controls">
+        <button id="start">Start</button>
+        <button id="pause">Stop</button>
+        <button id="reset">Restart</button>
+      </div>
+    </div>
+    <div class="link-container">
+      <a href="" target="_blank">Gameplay's video for a good start</a>
+      <a href="asset/pdf/Rules-VV.pdf" target="_blank">Download the rules</a>
+    </div>
+    <div id="customAlert" class="custom-alert">
+      <div class="alert-content">
+        <h2>FINISH !!!</h2>
+        <button id="closeAlert">OK</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
